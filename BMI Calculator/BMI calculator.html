@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="BMI.css">
+</head>
+<body>
+    <div class="card">
+        <h1>BMI Calculator</h1>
+        <label class="switch">
+            <input type="checkbox" id="unitToggle">
+            <span>Use Imperial Units (ft/in,lbs)</span>
+        </label>
+
+        <!--Metric inputs-->
+        <div id="metricInputs">
+            <label>Height (cm)
+                <input type="number" id="heightCm" value="178">
+            </label>
+
+            <label>Weight (kg)
+                <input type="number" id="weightKg" value="72">
+            </label>            
+        </div>
+        <!-- imperial Inputs-->
+         <div id="imperialInputs" class="hidden">
+            <label>Height (ft)
+                <input type="number" id="heightFt" value="5">
+            </label>
+            <label>Height (in)
+                <input type="number" id="heightIn" value="10">
+            </label>
+            <label>Weight (lbs)
+                <input type="number" id="weightLbs" value="160">
+            </label>
+         </div>
+         <button id="calcBtn">Calculate</button>
+         <div class="result">
+            <p>Your BMI:<span id="bmiValue">--</span>(<span id="bmiCategory">--</span>)</p>
+
+            <div class="bar">
+                <div class="marker" id="marker"></div>
+            </div>
+            <div class="bar-labels">
+                <span>Underweight</span>
+                <span>Normal</span>
+                <span>Overweight</span>
+                <span>Obese</span>
+            </div>
+         </div>         
+    </div>
+    <script src="BMI.js"></script>
+</body>
+</html>
