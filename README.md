@@ -20,13 +20,17 @@ Repository was created via GitBash and following commands were used.
 git init
 git config --global user.name "Tanveer"
 git config --global user.email "Tanveer2605d@aptechgdn.net"
-git origin master
+git origin -u master
 git branch HTML-practice
+git switch HTML-practice
 git add .
 git commit -m "Added my practice files through git commands"
 git push
-git merge -main
+git merge -master
 compare and pull request via Github website
+
+To Clone this Repo use:
+git clone 'URL' 
 
                                      ------------------About Coffee-Website--------------------
 This index.html Website was created by Copilot in-order to get reference for the actual E-project in the upcoming month 
