@@ -28,6 +28,11 @@ git push
 git merge -main
 compare and pull request via Github website
 
+                                     ------------------About Coffee-Website--------------------
+This index.html Website was created by Copilot in-order to get reference for the actual E-project in the upcoming month 
+this project is Still in progress 
+Made with Copilot HTML CSS Bootstrap 5 
+
 
                                       --------------Individual Project Details--------------------
 
